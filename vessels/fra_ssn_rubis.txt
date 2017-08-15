@@ -93,6 +93,8 @@ DamageControlPartyY=-28
 ModelFile=ships/usn_ssn_narwhal/usn_ssn_narwhal
 
 //Hull and Deck
+
+
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
@@ -106,8 +108,7 @@ Mesh=usn_ssn_narwhal_tb16
 Mesh=usn_ssn_narwhal_wlr9
 MeshPosition=0,-0.002,-0.632
 MeshRudder=usn_ssn_narwhal_rudders
-MeshPosition=0,0.1287,0.3291
-MeshBowPlanes=usn_ssn_narwhal_sailplanes
+
 MeshPosition=0,0,-0.632
 MeshSternPlanes=usn_ssn_narwhal_sternplanes
 MeshPosition=0,-0.0042,-0.6914
@@ -125,6 +126,91 @@ MeshMast=usn_ssn_narwhal_esm_mast
 MeshPosition=0.001,0.075,0.3525
 MastHeight=0.085
 MeshMast=usn_ssn_narwhal_radar_mast
+
+//+ Sail attachment
+ModelFile=ships/wp_ssbn_typhoon/wp_ssbn_typhoon
+Material=ships/usn_ssn_permit/usn_ssn_permit_mat
+MaterialTextures=environment/sky/black
+MeshRotation=-12,173,0
+MeshPosition=0,0.1,0.21
+Mesh=wp_ssbn_typhoon_dorsal_rudder
+MeshRotation=-12,187,0
+MeshPosition=0,0.1,0.21
+Mesh=wp_ssbn_typhoon_dorsal_rudder
+//- 
+
+//+ Smooth sail top
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+Material=ships/usn_ssn_permit/usn_ssn_permit_mat
+MeshRotation=0,0,0
+MeshPosition=-0.0131,0.098,0.577
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0127,0.101,0.587
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0124,0.102,0.597
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0121,0.1026,0.607
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0119,0.1028,0.617
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0117,0.1030,0.627
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0115,0.1032,0.637
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0115,0.1034,0.647
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0115,0.1035,0.657
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0115,0.1035,0.667
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0115,0.104,0.677
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0115,0.104,0.687
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0115,0.103,0.697
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0119,0.101,0.707
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0133,0.095,0.717
+Mesh=usn_ssn_permit_gnats
+
+MeshPosition=-0.0131,0.098,0.577
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0135,0.101,0.587
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0138,0.102,0.597
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0141,0.1026,0.607
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0143,0.1028,0.617
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0145,0.1030,0.627
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0147,0.1032,0.637
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0147,0.1034,0.647
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0147,0.1035,0.657
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0147,0.1035,0.667
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0147,0.104,0.677
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0147,0.104,0.687
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0147,0.103,0.697
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0143,0.101,0.707
+Mesh=usn_ssn_permit_gnats
+MeshPosition=-0.0133,0.095,0.717
+Mesh=usn_ssn_permit_gnats
+
+//+ Sailplanes
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+MeshRotation=0,0,0
+MeshPosition=0,0.14,0.357
+MeshBowPlanes=usn_ssn_skipjack_sailplanes
+//- 
 
 [Weapon Systems]
 //Torpedo Mounts
