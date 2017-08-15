@@ -1,0 +1,10 @@
+[Unit Reference]
+ShipClass=USS Nautilus
+Description=USS Nautilus Nuclear Attack Submarine
+History=Selfnoise: 140 - Tubes: 6 - Wires: 1 - Weapon Loadout: 18/-\nUSS Nautilus (SSN-571) was the world's first operational nuclear-powered submarine. The vessel was the first submarine to complete a submerged transit of the North Pole on 3 August 1958. Sharing names with Captain Nemo's fictional submarine in Jules Verne's Twenty Thousand Leagues Under the Sea, and named after another USS Nautilus (SS-168) that served with distinction in World War II, Nautilus was authorized in 1951 and launched in 1954. Because her nuclear propulsion allowed her to remain submerged far longer than diesel-electric submarines, she broke many records in her first years of operation, and traveled to locations previously beyond the limits of submarines. In operation, she revealed a number of limitations in her design and construction. This information was used to improve subsequent submarines.
+Nautilus was decommissioned in 1980 and designated a National Historic Landmark in 1982. The submarine has been preserved as a museum ship in Groton, Connecticut, where the vessel receives around 250,000 visitors per year.
+
+[Player Ship Instances]
+PlayerClassNames=Nautilus
+
+PlayerClassHullNumbers=SSN-571

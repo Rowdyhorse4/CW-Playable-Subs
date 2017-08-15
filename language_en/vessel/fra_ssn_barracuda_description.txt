@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Barracuda
+Description=Barracuda Class Nuclear Attack Submarine
+History=Selfnoise: 70 - Tubes: 4 - Wires: 4 - Weapon Loadout: 20/-\nThe Barracuda class (or Suffren class) is a new nuclear attack submarine, designed by the French shipbuilder DCNS for the French Navy, replacing the Rubis-class submarines. Construction began in 2007 and the first unit will be commissioned in 2018. Barracudas will use technology from the Triomphant class, including pump jet propulsion. This class reportedly produces approximately 1/1000 of the detectable noise of the Redoutable-class boats (submarines), and they are ten times more sensitive in detecting other submarines. They will be fitted with torpedo-tube-launched cruise missiles MDCN SCALP Naval for long-range (well above 1,000 km, 620 mi) strikes against strategic land targets. Their missions will include anti-surface and anti-submarine warfare, land attack, intelligence gathering, crisis management and special operations. The Barracuda type will use X-shaped stern planes.
+
+[Player Ship Instances]
+PlayerClassNames=Suffren,Duguay-Trouin,Tourville,Dupetit-Thouars,Duquesne,De Grasse
+
+PlayerClassHullNumbers=-tobeassisgned-,-tobeassisgned-,-tobeassisgned-,-tobeassisgned-,-tobeassisgned-,-tobeassisgned-
